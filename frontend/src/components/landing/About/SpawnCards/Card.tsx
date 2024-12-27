@@ -3,10 +3,10 @@ type Props = {
   index: number;
 };
 export const Card = ({ src, index }: Props) => {
-  let heigthIm = "96";
+  let heigthIm = "h-96";
   let selfS = "";
   if(index %2===0){
-    heigthIm = "64";
+    heigthIm = "h-64";
     selfS = "place-self-end";
   }
   return (
@@ -14,7 +14,7 @@ export const Card = ({ src, index }: Props) => {
       style={{
         backgroundImage: `url(${src})`,
       }}
-      className={`h-${heigthIm} w-full bg-cover bg-center rounded-t-lg ${selfS} border-2 border-x-pink-500 border-t-orange-500`}
+      className={`${heigthIm} w-full bg-cover bg-center rounded-t-lg ${selfS} border-2 border-x-pink-500 border-t-orange-500`}
     ></div>
   );
 };
