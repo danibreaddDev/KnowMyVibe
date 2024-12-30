@@ -9,7 +9,7 @@ export const LandingPage = () => {
         <NavBar />
       </header>
 
-      <main className="p-5 w-full min-h-screen scroll-smooth">
+      <main className="min-h-screen scroll-smooth">
         <About />
         <Mision/>
       </main>
