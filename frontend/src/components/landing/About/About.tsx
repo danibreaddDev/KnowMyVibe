@@ -4,8 +4,8 @@ import { Description } from "./Description";
 import { SpawnCards } from "./SpawnCards/SpawnCards";
 export const About = () => {
   return (
-    <section className="min-h-screen p-5  flex flex-col justify-around">
-      <div className="flex flex-col items-center gap-y-10">
+    <section className="min-h-screen p-5 flex flex-col justify-around">
+      <div className="flex flex-col items-center gap-10">
         <Title />
         <Description />
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">

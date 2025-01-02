@@ -22,7 +22,7 @@ export const SpawnCards = () => {
     ...cards.slice(0, PositionCards),
   ];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-6 gap-x-8">
+    <div className="mt-10 grid grid-cols-1 lg:grid-cols-6 gap-8">
       {reorderedCards.map((card, index) => (
         <Card key={index} index={index} src={card} />
       ))}

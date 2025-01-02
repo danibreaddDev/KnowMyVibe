@@ -18,20 +18,20 @@ export const NavBar = () => {
           Mision
         </a>
         <a
-          href="#"
-          className="text-slate-500 hover:text-gray-900 hover:underline underline-offset-8 decoration-dotted decoration-orange-500 "
+          href="#comunity"
+          className="text-slate-500 hover:text-slate-950 hover:underline underline-offset-8 decoration-dotted decoration-orange-500 "
         >
           Community
         </a>
         <a
           href="#"
-          className="text-slate-500 hover:text-gray-900 hover:underline underline-offset-8 decoration-dotted decoration-orange-500"
+          className="text-slate-500 hover:text-slate-950 hover:underline underline-offset-8 decoration-dotted decoration-orange-500"
         >
           FaQs
         </a>
         <a
           href="#"
-          className="text-slate-500 hover:text-gray-900 hover:underline underline-offset-8 decoration-dotted decoration-orange-500"
+          className="text-slate-500 hover:text-slate-950 hover:underline underline-offset-8 decoration-dotted decoration-orange-500"
         >
           Contact
         </a>

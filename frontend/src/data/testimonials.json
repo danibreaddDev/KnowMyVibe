@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Laura Martinez",
+        "username": "@laura_m",
+        "testimonial": "KnowMyVIBE helped me connect with people who share my passions. Now I have an amazing group of friends to go rock climbing with!",
+        "rating": 5
+    },
+    {
+        "name": "Carlos Fernandez",
+        "username": "@carlosf90",
+        "testimonial": "Thanks to KnowMyVIBE, I found a job that matches my skills. It’s such a unique and user-friendly platform.",
+        "rating": 5
+    },
+    {
+        "name": "Ana Torres",
+        "username": "@ana_t",
+        "testimonial": "The group creation feature is fantastic. I’m now part of a photography community in my city. I love it!",
+        "rating": 4
+    },
+    {
+        "name": "Javier Lopez",
+        "username": "@javilopez",
+        "testimonial": "The idea of connecting people through shared interests is great. However, I think the interface design could be improved.",
+        "rating": 4
+    },
+    {
+        "name": "Maria Gonzalez",
+        "username": "@maria_g",
+        "testimonial": "Amazing app! I found people to go hiking with, and now we go out almost every weekend.",
+        "rating": 5
+    },
+    {
+        "name": "Emily Clark",
+        "username": "@emilyc",
+        "testimonial": "I’ve always struggled to find like-minded people, but KnowMyVIBE made it so easy. Now I have a supportive book club!",
+        "rating": 5
+    }
+]
