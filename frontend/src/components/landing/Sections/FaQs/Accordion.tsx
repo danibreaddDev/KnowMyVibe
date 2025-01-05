@@ -38,28 +38,35 @@ export const Accordion = ({ items }: Props) => {
               <span className="text-lg font-bold text-transparent bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text">
                 {item.title}
               </span>
-              <svg
-                data-accordion-icon
-                className="w-3 h-3 rotate-180 shrink-0 fill-orange-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 10 6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
+              {
+                activeIndex == index ? (<svg xmlns="http://www.w3.org/2000/svg" className="size-5 fill-orange-500" viewBox="0 0 24 24"><path  d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" /></svg>) : (<svg
+                  data-accordion-icon
+                  className="w-3 h-3 rotate-180 shrink-0 fill-orange-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>)
+              }
+
+
+
+
+
             </button>
           </h2>
           <div
             id={`accordion-collapse-body-${index}`}
             className={`${activeIndex === index ? "flex" : "hidden"}`}
-            aria-labelledby="accordion-collapse-heading-1"
+            aria-labelledby="accordion-collapse-headin/g-1"
           >
-            <div className="p-5 border border-b-0 w-full ">
+            <div className="p-5 border-2 border-b-0 w-full ">
               <p className="mb-2 text-slate-500 font-light">{item.content}</p>
             </div>
           </div>

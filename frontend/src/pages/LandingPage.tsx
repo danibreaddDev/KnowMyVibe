@@ -1,8 +1,9 @@
-import { NavBar } from "../components/landing/NavBar/NavBar";
-import { About } from "../components/landing/About/About";
-import { Mision } from "../components/landing/Mision/Mision";
-import { Comunity } from "../components/landing/Comunity/Comunity";
-import { FaQs } from "../components/landing/FaQs/FaQs";
+import { NavBar } from "../components/landing/Sections/NavBar/NavBar";
+import { About } from "../components/landing/Sections/About/About";
+import { Mision } from "../components/landing/Sections/Mision/Mision";
+import { Comunity } from "../components/landing/Sections/Comunity/Comunity";
+import { FaQs } from "../components/landing/Sections/FaQs/FaQs";
+import { Footer } from "../components/landing/Sections/Footer/Footer";
 
 export const LandingPage = () => {
   return (
@@ -13,12 +14,13 @@ export const LandingPage = () => {
 
       <main className="p-5 lg:p-20 min-h-screen scroll-smooth flex flex-col gap-y-20">
         <About />
-        <Mision/>
-        <Comunity/>
-        <FaQs/>
+        <Mision />
+        <Comunity />
+        <FaQs />
+
       </main>
 
-      <footer></footer>
+      <Footer />
     </>
   );
 };

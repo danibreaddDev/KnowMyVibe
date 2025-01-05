@@ -1,4 +1,4 @@
-import Icon from "../../icons/Icon";
+import Icon from "../../../icons/Icon";
 import { Title } from "./Title";
 import { Description } from "./Description";
 import { SpawnCards } from "./SpawnCards/SpawnCards";

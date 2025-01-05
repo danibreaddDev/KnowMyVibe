@@ -1,6 +1,6 @@
 import { Image } from "./Image";
 import { Card } from "./Card";
-import { Title } from "../../Title";
+import { Title } from "../../../Title";
 export const Mision = () => {
   const misions = [
     {

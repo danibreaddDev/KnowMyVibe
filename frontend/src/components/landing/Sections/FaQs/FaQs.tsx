@@ -1,6 +1,6 @@
-import { Title } from "../../Title";
+import { Title } from "../../../Title";
 import { Accordion } from "./Accordion";
-import faqs from "../../../data/faqs.json"
+import faqs from "../../../../data/faqs.json"
 
 export const FaQs = () => {
   return (

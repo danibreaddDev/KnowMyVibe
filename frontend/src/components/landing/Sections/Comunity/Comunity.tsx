@@ -1,6 +1,6 @@
 import { RateCard } from "./RateCard";
-import { Title } from "../../Title";
-import testimonial from "../../../data/testimonials.json";
+import { Title } from "../../../Title";
+import testimonial from "../../../../data/testimonials.json";
 export const Comunity = () => {
   return (
     <section

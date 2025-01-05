@@ -1,4 +1,4 @@
-import applogo from "../../../assets/logo.svg";
+import applogo from "../../../../assets/logo.svg";
 import { useState } from "react";
 export const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
